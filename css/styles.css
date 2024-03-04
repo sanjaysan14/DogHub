@@ -1,0 +1,571 @@
+/* .main{
+    background-color:#FDBF60 ;
+    height: 90%;
+    border-radius: 30px;
+    width: 70%;
+    margin-left: 220px;
+} */
+
+
+.logoimg{
+  width: 60px;
+}
+
+
+
+.navbutton{
+    width: 190px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navbar{
+  margin: 20px auto 0; /* Change margin to 'auto' for centering */
+  width: 90%;
+  -webkit-box-shadow: -3px -3px 17.5px 11px #dddddd;
+  -moz-box-shadow: -3px -3px 17.5px 11px #dddddd;
+  box-shadow: -3px -3px 17.5px 11px #dddddd;
+  display: flex; /* Add display flex */
+  justify-content: center; /* Center items horizontally */
+}
+
+.navbar-brand1 {
+   color:#0d172a;
+   font-size: 20px;
+   text-decoration: none;
+ 
+}
+
+.navbar-brand1:hover{
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navlistmain ul li {
+  text-decoration: none;
+  display: inline-block;
+  padding:10px;
+ 
+ 
+}
+
+ .navlist a{
+    color: rgb(19, 7, 7);
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 15px;
+    
+
+}
+
+.navlist a:hover{
+  text-decoration:none;
+  color: rgb(234, 13, 13);
+ 
+ 
+}
+
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.mainimg{
+    width: 50%;
+   border-radius: 30px ;
+    margin: 80px 0px 0px  90px ;
+    transform: rotate(20deg);
+}
+
+.mainimg:hover{
+    transform: scale(110%);
+    
+}
+.maintext{
+    font-size: 40px;
+    font-weight: 400;
+   margin:50px 0px 0px 180px;
+   text-align:left;
+}
+
+.maintexth3{
+    font-size: 20px;
+    font-weight: 400;
+   margin:20px 0px 0px 180px;
+   text-align:left;
+}
+
+.maintexthead{
+    font-size: 80px;
+    color: #0d172a;
+}
+
+
+
+
+
+
+
+
+
+/* CSS */
+.button1 {
+   /* margin-left: -30px; */
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+ height: 50px;
+ width: 170px;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+
+.button1:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .button1 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+
+.mainbutton{
+    margin: 30px 0px 0px 0px;
+    font-size: 4rem;
+}
+
+
+
+
+
+
+/* CSS */
+.navbutton1 {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.navbutton1:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .navbutton1 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+
+
+
+/* ------------------------- */
+
+
+.Features-p{
+  font-size: 20px;
+}
+.row{
+    text-align: center;
+    padding: 40px;
+}
+
+
+
+.data{
+  height: 200px;
+ padding-top: 40px;
+ 
+}
+
+
+.data:hover{
+  background-color: #0d172a;
+  color: white;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+/* Testimonials */
+
+
+.testimonials{
+  background-image:url("../images/testi2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-box-shadow: inset 7px 5px 30px 18px #504c4c;
+  -moz-box-shadow: inset 7px 5px 30px 18px #504c4c;
+  box-shadow: inset 7px 5px 30px 18px #504c4c;
+}
+
+.testimonialsclass{
+  display: flex;
+  flex-direction: row;
+ margin:5% 0% 10% 30%;
+  gap: 100px;
+  
+}
+
+.testimonial-image{
+  width: 20%;
+  height: 20%;
+  border-radius: 100%;
+}
+
+.testimonial-text{
+  /* justify-content: left; */
+  width: 60%;
+  color: white;
+  font-size: 30px;
+}
+
+
+/* ----------------------------------------------------Business-partners-------------------------------- */
+
+.Business-partners-logo{
+  margin: 0% 15% 5% 15%;
+}
+
+
+
+/* ------------------------------pricingbanner---------------------- */
+
+/* .pricingbanner{
+  background-image: url("../images/bogspricingback.png");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  
+} */
+
+.pricingbanner{
+  margin-top: 5%;
+}
+
+.pricingbannercontent{
+
+
+
+}
+
+
+.pricingbannercontenthead h2{
+  font-size: 40px;
+text-align: center;
+}
+.pricingbannercontenthead p{
+  font-size: 15px;
+text-align: center;
+
+}
+
+
+
+.pricecard{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5%;
+  justify-content: center;
+  height: 250px;
+  margin-top: 4%;
+ 
+  
+  
+}
+
+.card{
+  -webkit-box-shadow: 0.5px 3px 10px 11px #dddddd;
+  -moz-box-shadow: 0.5px 3px 10px 11px #dddddd;
+  box-shadow: 0.5px 3px 10px 11px #dddddd;
+width: 20%;
+position: relative; 
+width: 250px; 
+height: 200px;
+  align-items: left;
+  
+ 
+ 
+}
+
+
+.card img { 
+  width: 250px; 
+  height: 250px; 
+opacity: 0.8;
+  
+} 
+
+.overlay { 
+  position: absolute; 
+  transition: all 0.3s ease; 
+  opacity: 0; 
+ 
+} 
+
+.card:hover .overlay { 
+  opacity: 1; 
+
+} 
+
+
+
+.card:hover { 
+height: 250px; 
+
+} 
+
+.card:hover,.data1{
+  z-index: 1;
+  
+}
+
+.data1{
+ position: relative;
+padding: 40px;
+
+}
+
+
+.data1 h3 {
+ font-size: 20px;
+
+}
+
+.card:hover, h3{
+ font-size: 15px;
+color: rgb(6, 0, 0);
+
+}
+
+.data1 p{
+  font-size: 11px;
+  padding: 1px;
+  font-weight: 600;
+}
+
+
+
+.data1 span{
+ font-size: 15px;
+ color: rgb(233, 3, 3);
+}
+
+
+
+
+.cardbtnmain{
+  
+}
+
+.cardbtn {
+  --color: #080808;
+ top: -20px;
+ left: 50px;
+  /* padding: 0.8em 1.7em; */
+ 
+  border-radius: .3em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: .5s;
+  font-weight: 400;
+  font-size: 17px;
+  border: 3px solid;
+  font-family: inherit;
+  text-transform: uppercase;
+  color: var(--color);
+  z-index: 1;
+  width: 60%;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0);
+ }
+ 
+ .cardbtn::before, .cardbtn::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: var(--color);
+  transition: 1s ease;
+ }
+ 
+ .cardbtn::before {
+  top: -1em;
+  left: -1em;
+ }
+ 
+ .cardbtn::after {
+  left: calc(100% + 1em);
+  top: calc(100% + 1em);
+ }
+ 
+ .cardbtn:hover::before, .cardbtn:hover::after {
+  height: 410px;
+  width: 410px;
+ }
+ 
+ .cardbtn:hover {
+  color: rgb(242, 245, 245);
+  border: none;
+ }
+ 
+ .cardbtn:active {
+  filter: brightness(.8);
+ }
+ 
+
+
+
+
+ /* ----------------------------------footerimg------------------------- */
+
+
+ /* .footerimg{
+  position: absolute;
+  width: 700px;
+  object-fit: fill;
+ } */
+
+ .footersec{
+  margin-top: 70px;
+  text-align: center;
+ }
+
+
+ .footersec h3{
+  
+  font-size: 30px;
+
+ }
+
+ .footerdata{
+
+
+  
+ }
+
+
+
+
+/* CSS */
+.footerbutton {
+  align-items: center;
+  background-color: #f6f2f1;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  
+margin-top:20px ;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.footerbutton:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.footerbutton:hover:after {
+  transform: translate(0, 0);
+}
+
+.footerbutton:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.footerbutton:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .footerbutton {
+    padding: 0 40px;
+  }
+}
+
+
+
+.copyright{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+
+/* -----------------------responsiveness-------------- */
+
